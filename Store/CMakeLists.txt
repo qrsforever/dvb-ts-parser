@@ -1,0 +1,9 @@
+
+list (APPEND IPTV_CXX_SOURCES 
+    ${CMAKE_CURRENT_LIST_DIR}/SQLiteDatabase.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/SQLiteResultSet.cpp
+)
+
+include (${CMAKE_CURRENT_LIST_DIR}/sqlite/CMakeLists.txt)
+
+LIST (APPEND INCLUDES ${CMAKE_CURRENT_LIST_DIR})

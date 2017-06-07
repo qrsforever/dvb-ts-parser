@@ -1,0 +1,11 @@
+
+list (APPEND IPTV_CXX_SOURCES 
+    ${CMAKE_CURRENT_LIST_DIR}/DvbPatParser.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/DvbPmtParser.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/DvbSdtParser.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/DvbEitParser.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/DvbNitParser.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/DvbTotParser.cpp
+)
+
+LIST (APPEND INCLUDES ${CMAKE_CURRENT_LIST_DIR})
